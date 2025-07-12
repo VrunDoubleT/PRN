@@ -1,0 +1,17 @@
+# Build files
+bin/
+obj/
+
+# VS config
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Others
+*.log
+*.DS_Store
+*.vscode/
+*.sqlite
+*.db
