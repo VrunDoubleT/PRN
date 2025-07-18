@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\AssigmentPRN\\PRN_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\categorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\categorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|solutionrelative:manageproduct.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|solutionrelative:manageproduct.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.dal\\manageproduct.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\manageproduct.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.dal\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.dal\\manageproductcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\manageproductcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\categorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\categorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\categorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -38,24 +62,12 @@
       "RelativeMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|solutionrelative:manageproduct.bll\\manageproduct.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\createproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\createproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|solutionrelative:manageproduct.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.dal\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\createproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,14 +80,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.dal\\manageproduct.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\manageproduct.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|solutionrelative:manageproduct.bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,10 +98,6 @@
       "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\assigmentprn\\prn_project\\manageproduct.dal\\manageproductcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\manageproductcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\assigmentprn\\prn_project\\manageproduct\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -109,24 +109,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "ManageProduct.BLL\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "ManageProduct.BLL\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T16:49:50.888Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ManageProduct.BLL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "ManageProduct.BLL\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T16:29:45.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\CategoryRepository.cs",
               "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Repositories\\CategoryRepository.cs",
               "RelativeToolTip": "ManageProduct.DAL\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwBYAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T16:44:44.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\appsettings.json",
               "RelativeDocumentMoniker": "ManageProduct\\appsettings.json",
@@ -134,113 +158,47 @@
               "RelativeToolTip": "ManageProduct\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-12T16:30:56.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryPage.xaml",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CategoryPage.xaml",
-              "RelativeDocumentMoniker": "ManageProduct\\CategoryPage.xaml",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CategoryPage.xaml",
-              "RelativeToolTip": "ManageProduct\\CategoryPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-12T16:52:35.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAOYUAAAAAAAAAAAAAPMUAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-12T18:14:37.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManageProduct.csproj",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\ManageProduct.csproj",
-              "RelativeDocumentMoniker": "ManageProduct\\ManageProduct.csproj",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\ManageProduct.csproj",
-              "RelativeToolTip": "ManageProduct\\ManageProduct.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-12T16:29:52.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductPage.xaml",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\ProductPage.xaml",
-              "RelativeDocumentMoniker": "ManageProduct\\ProductPage.xaml",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\ProductPage.xaml",
-              "RelativeToolTip": "ManageProduct\\ProductPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-12T17:52:23.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "ManageProduct\\AssemblyInfo.cs",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\AssemblyInfo.cs",
-              "RelativeToolTip": "ManageProduct\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T17:00:18.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T16:30:56.702Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CreateCategory.xaml.cs",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateCategory.xaml.cs",
-              "RelativeDocumentMoniker": "ManageProduct\\CreateCategory.xaml.cs",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateCategory.xaml.cs",
-              "RelativeToolTip": "ManageProduct\\CreateCategory.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T17:34:37.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManageProduct.BLL.csproj",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\ManageProduct.BLL.csproj",
-              "RelativeDocumentMoniker": "ManageProduct.BLL\\ManageProduct.BLL.csproj",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\ManageProduct.BLL.csproj",
-              "RelativeToolTip": "ManageProduct.BLL\\ManageProduct.BLL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "ManageProduct.DAL.csproj",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
+              "RelativeDocumentMoniker": "ManageProduct.DAL\\ManageProduct.DAL.csproj",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
+              "RelativeToolTip": "ManageProduct.DAL\\ManageProduct.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-12T16:29:49.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T16:29:40.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateCategory.xaml",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateCategory.xaml",
-              "RelativeDocumentMoniker": "ManageProduct\\CreateCategory.xaml",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateCategory.xaml",
-              "RelativeToolTip": "ManageProduct\\CreateCategory.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-12T17:33:49.301Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T16:29:35.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "ManageProductContext.cs",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProductContext.cs",
+              "RelativeDocumentMoniker": "ManageProduct.DAL\\ManageProductContext.cs",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProductContext.cs",
+              "RelativeToolTip": "ManageProduct.DAL\\ManageProductContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T16:27:46.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CategoryPage.xaml.cs",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CategoryPage.xaml.cs",
               "RelativeDocumentMoniker": "ManageProduct\\CategoryPage.xaml.cs",
@@ -248,24 +206,104 @@
               "RelativeToolTip": "ManageProduct\\CategoryPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T16:55:32.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T16:55:32.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductPage.xaml",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\ProductPage.xaml",
+              "RelativeDocumentMoniker": "ManageProduct\\ProductPage.xaml",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\ProductPage.xaml",
+              "RelativeToolTip": "ManageProduct\\ProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-12T17:52:23.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManageProduct.csproj",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\ManageProduct.csproj",
+              "RelativeDocumentMoniker": "ManageProduct\\ManageProduct.csproj",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\ManageProduct.csproj",
+              "RelativeToolTip": "ManageProduct\\ManageProduct.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-12T16:29:52.537Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "ManageProduct.BLL\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\Services\\CategoryService.cs",
-              "RelativeToolTip": "ManageProduct.BLL\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAEwCMAAAAJAAAAAAAAAA==",
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOYUAAAAAAAAAAAAAPMUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-12T18:14:37.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryPage.xaml",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CategoryPage.xaml",
+              "RelativeDocumentMoniker": "ManageProduct\\CategoryPage.xaml",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CategoryPage.xaml",
+              "RelativeToolTip": "ManageProduct\\CategoryPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-12T16:52:35.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\AssemblyInfo.cs",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\AssemblyInfo.cs",
+              "RelativeToolTip": "ManageProduct\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T16:49:50.888Z"
+              "WhenOpened": "2025-07-12T17:00:18.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateCategory.xaml.cs",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateCategory.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\CreateCategory.xaml.cs",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateCategory.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\CreateCategory.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T17:34:37.387Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "ManageProduct.BLL.csproj",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\ManageProduct.BLL.csproj",
+              "RelativeDocumentMoniker": "ManageProduct.BLL\\ManageProduct.BLL.csproj",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\ManageProduct.BLL.csproj",
+              "RelativeToolTip": "ManageProduct.BLL\\ManageProduct.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-12T16:29:49.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateCategory.xaml",
+              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateCategory.xaml",
+              "RelativeDocumentMoniker": "ManageProduct\\CreateCategory.xaml",
+              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateCategory.xaml",
+              "RelativeToolTip": "ManageProduct\\CreateCategory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-12T17:33:49.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CreateProductWindow.xaml.cs",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateProductWindow.xaml.cs",
               "RelativeDocumentMoniker": "ManageProduct\\CreateProductWindow.xaml.cs",
@@ -277,43 +315,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "CreateProductWindow.xaml",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateProductWindow.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\CreateProductWindow.xaml",
               "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\CreateProductWindow.xaml",
               "RelativeToolTip": "ManageProduct\\CreateProductWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-12T17:32:46.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T17:32:46.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T16:29:35.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\App.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\App.xaml",
               "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct\\App.xaml",
               "RelativeToolTip": "ManageProduct\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-12T17:00:18.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T17:00:18.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Entities\\Brand.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\Brand.cs",
@@ -325,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\Role.cs",
@@ -337,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\Category.cs",
@@ -349,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Entities\\User.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\User.cs",
@@ -372,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\Product.cs",
@@ -383,41 +407,8 @@
               "WhenOpened": "2025-07-12T16:30:22.737Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "ManageProduct.BLL\\Services\\ProductService.cs",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.BLL\\Services\\ProductService.cs",
-              "RelativeToolTip": "ManageProduct.BLL\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T16:29:45.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ManageProduct.DAL.csproj",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
-              "RelativeDocumentMoniker": "ManageProduct.DAL\\ManageProduct.DAL.csproj",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
-              "RelativeToolTip": "ManageProduct.DAL\\ManageProduct.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-12T16:29:40.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ManageProductContext.cs",
-              "DocumentMoniker": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProductContext.cs",
-              "RelativeDocumentMoniker": "ManageProduct.DAL\\ManageProductContext.cs",
-              "ToolTip": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProductContext.cs",
-              "RelativeToolTip": "ManageProduct.DAL\\ManageProductContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T16:27:46.202Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             }
           ]
         }

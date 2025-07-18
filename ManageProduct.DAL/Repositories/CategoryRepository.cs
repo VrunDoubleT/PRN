@@ -47,5 +47,6 @@ namespace ManageProduct.DAL.Repositories
                 _context.SaveChanges();
             }
         }
+
     }
 }
