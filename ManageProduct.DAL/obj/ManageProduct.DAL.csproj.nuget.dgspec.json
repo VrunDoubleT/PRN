@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj": {}
+    "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj": {}
   },
   "projects": {
-    "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj": {
+    "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
         "projectName": "ManageProduct.DAL",
-        "projectPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
-        "packagesPath": "C:\\Users\\Tran Thanh Hang\\.nuget\\packages\\",
-        "outputPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tran Thanh Hang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

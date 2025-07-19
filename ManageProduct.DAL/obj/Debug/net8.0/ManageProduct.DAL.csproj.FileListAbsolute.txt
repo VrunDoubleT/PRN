@@ -1,0 +1,15 @@
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.deps.json
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.runtimeconfig.json
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.dll
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.pdb
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.AssemblyInfo.cs
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.sourcelink.json
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.dll
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\refint\ManageProduct.DAL.dll
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.pdb
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.genruntimeconfig.cache
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.DAL\obj\Debug\net8.0\ref\ManageProduct.DAL.dll

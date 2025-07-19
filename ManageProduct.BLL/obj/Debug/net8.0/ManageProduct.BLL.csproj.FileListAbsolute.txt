@@ -1,0 +1,16 @@
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.BLL.deps.json
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.BLL.dll
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.BLL.pdb
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.DAL.dll
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.DAL.pdb
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.AssemblyInfo.cs
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.sourcelink.json
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManagePr.717CA1D1.Up2Date
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.dll
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\refint\ManageProduct.BLL.dll
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.pdb
+C:\Users\Dell\Documents\PRN212_Project\ManageProduct.BLL\obj\Debug\net8.0\ref\ManageProduct.BLL.dll
