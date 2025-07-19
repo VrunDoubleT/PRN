@@ -14,6 +14,9 @@
     <Compile Update="CreateProductWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CreateStaffWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CustomerPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -23,7 +26,13 @@
     <Compile Update="EditCustomerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="EditStaffWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ProductPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StaffPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

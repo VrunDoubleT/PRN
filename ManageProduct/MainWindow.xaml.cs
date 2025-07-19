@@ -47,6 +47,11 @@ namespace ManageProduct
             ContentArea.Content = new BrandPage();
         }
 
+        private void StaffBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ContentArea.Content = new StaffPage();
+        }
+
         private void CustomersBtn_Click(object sender, RoutedEventArgs e)
         {
             ContentArea.Content = new CustomerPage();

@@ -3,24 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\PRN212_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\customerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\customerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct.dal\\repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\staffpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\staffpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\staffpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\staffpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct.dal\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\editstaffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\editstaffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\editcustomerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\editcustomerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\editstaffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\editstaffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\editcustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\editcustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\createstaffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\createstaffwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\createcustomerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\createcustomerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\createstaffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\createstaffwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\createcustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\createcustomerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct.bll\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|solutionrelative:manageproduct.bll\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct.bll\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10E8BE91-CC83-49CA-ACFB-54D287BF3DFB}|ManageProduct.BLL\\ManageProduct.BLL.csproj|solutionrelative:manageproduct.bll\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\customerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\customerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\createproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -29,14 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\createproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\createproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct.dal\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|c:\\users\\dell\\documents\\prn212_project\\manageproduct.dal\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,20 +114,95 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\StaffPage.xaml",
+              "RelativeDocumentMoniker": "ManageProduct\\StaffPage.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\StaffPage.xaml",
+              "RelativeToolTip": "ManageProduct\\StaffPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-19T16:49:56.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "ManageProduct.DAL\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAkwDwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:05:55.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "StaffRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\Repositories\\StaffRepository.cs",
+              "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\StaffRepository.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\Repositories\\StaffRepository.cs",
+              "RelativeToolTip": "ManageProduct.DAL\\Repositories\\StaffRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA5wCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:53:46.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ManageProduct\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\MainWindow.xaml",
+              "RelativeToolTip": "ManageProduct\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-19T16:40:28.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\StaffPage.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\StaffPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\StaffPage.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\StaffPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:52:20.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EditCustomerWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\EditCustomerWindow.xaml.cs",
               "RelativeDocumentMoniker": "ManageProduct\\EditCustomerWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\EditCustomerWindow.xaml.cs",
               "RelativeToolTip": "ManageProduct\\EditCustomerWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T16:27:43.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "EditStaffWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\EditStaffWindow.xaml",
+              "RelativeDocumentMoniker": "ManageProduct\\EditStaffWindow.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\EditStaffWindow.xaml",
+              "RelativeToolTip": "ManageProduct\\EditStaffWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-19T17:03:43.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EditCustomerWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\EditCustomerWindow.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\EditCustomerWindow.xaml",
@@ -95,7 +214,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "EditStaffWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\EditStaffWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\EditStaffWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\EditStaffWindow.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\EditStaffWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T17:09:14.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateStaffWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateStaffWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\CreateStaffWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateStaffWindow.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\CreateStaffWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T17:07:38.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateCustomerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateCustomerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\CreateCustomerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateCustomerWindow.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\CreateCustomerWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:39:10.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateStaffWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateStaffWindow.xaml",
+              "RelativeDocumentMoniker": "ManageProduct\\CreateStaffWindow.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateStaffWindow.xaml",
+              "RelativeToolTip": "ManageProduct\\CreateStaffWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-19T17:03:30.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CreateCustomerWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateCustomerWindow.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\CreateCustomerWindow.xaml",
@@ -107,58 +277,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CustomerPage.xaml.cs",
-              "RelativeDocumentMoniker": "ManageProduct\\CustomerPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CustomerPage.xaml.cs",
-              "RelativeToolTip": "ManageProduct\\CustomerPage.xaml.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEMAAAApAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.BLL\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "ManageProduct.BLL\\Services\\StaffService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.BLL\\Services\\StaffService.cs",
+              "RelativeToolTip": "ManageProduct.BLL\\Services\\StaffService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T15:28:38.47Z",
+              "WhenOpened": "2025-07-19T16:56:00.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateCustomerWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateCustomerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ManageProduct\\CreateCustomerWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateCustomerWindow.xaml.cs",
-              "RelativeToolTip": "ManageProduct\\CreateCustomerWindow.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAkwDgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.BLL\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "ManageProduct.BLL\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.BLL\\Services\\CustomerService.cs",
+              "RelativeToolTip": "ManageProduct.BLL\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA9wCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T15:39:10.234Z",
+              "WhenOpened": "2025-07-19T16:56:02.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateProductWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateProductWindow.xaml",
-              "RelativeDocumentMoniker": "ManageProduct\\CreateProductWindow.xaml",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateProductWindow.xaml",
-              "RelativeToolTip": "ManageProduct\\CreateProductWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-19T15:34:33.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateProductWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateProductWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ManageProduct\\CreateProductWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateProductWindow.xaml.cs",
-              "RelativeToolTip": "ManageProduct\\CreateProductWindow.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T15:40:33.249Z",
+              "WhenOpened": "2025-07-19T16:49:12.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "CustomerPage.xaml",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CustomerPage.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\CustomerPage.xaml",
@@ -170,20 +328,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "ManageProduct.DAL\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAIAwwCwAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "CustomerPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CustomerPage.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\CustomerPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CustomerPage.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\CustomerPage.xaml.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAUwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T16:05:55.295Z",
+              "WhenOpened": "2025-07-19T15:28:38.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
+              "Title": "CreateProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateProductWindow.xaml",
+              "RelativeDocumentMoniker": "ManageProduct\\CreateProductWindow.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateProductWindow.xaml",
+              "RelativeToolTip": "ManageProduct\\CreateProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-19T15:34:33.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateProductWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\CreateProductWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\CreateProductWindow.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\CreateProductWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T15:40:33.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\Entities\\User.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\User.cs",
@@ -191,12 +372,11 @@
               "RelativeToolTip": "ManageProduct.DAL\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T15:49:00.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T15:49:00.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "ProductPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\ProductPage.xaml.cs",
               "RelativeDocumentMoniker": "ManageProduct\\ProductPage.xaml.cs",
@@ -204,12 +384,11 @@
               "RelativeToolTip": "ManageProduct\\ProductPage.xaml.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T15:30:56.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T15:30:56.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.BLL\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "ManageProduct.BLL\\Services\\ProductService.cs",
@@ -217,12 +396,11 @@
               "RelativeToolTip": "ManageProduct.BLL\\Services\\ProductService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T15:28:30.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T15:28:30.802Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
@@ -230,20 +408,18 @@
               "RelativeToolTip": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T15:28:17.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T15:28:17.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "ProductPage.xaml",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\ProductPage.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\ProductPage.xaml",
               "ToolTip": "C:\\Users\\Dell\\Documents\\PRN212_Project\\ManageProduct\\ProductPage.xaml",
               "RelativeToolTip": "ManageProduct\\ProductPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-19T15:21:43.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T15:21:43.477Z"
             }
           ]
         }
