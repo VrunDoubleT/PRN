@@ -20,6 +20,9 @@
     <Compile Update="DashboardPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ProductPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

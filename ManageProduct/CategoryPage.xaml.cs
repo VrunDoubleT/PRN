@@ -5,6 +5,7 @@ using ManageProduct.BLL.Services;
 using ManageProduct.DAL;
 using System.Windows.Controls;
 using System.Linq;
+using static ManageProduct.DAL.Repositories.UserRepositories;
 
 namespace ManageProduct
 {
@@ -25,7 +26,7 @@ namespace ManageProduct
         {
             var categories = _categoryService.GetCategories();
             CategoryDataGrid.ItemsSource = categories;
-            // Fix: Check if CategoryCountText exists before using
+           
             if (this.FindName("CategoryCountText") is TextBlock categoryCountText)
             {
                 categoryCountText.Text = $"Tổng: {categories.Count} danh mục";
@@ -34,19 +35,32 @@ namespace ManageProduct
 
         private void AddCategoryBtn_Click(object sender, RoutedEventArgs e)
         {
+            if (CurrentSession.CurrentUser != null && CurrentSession.CurrentUser.RoleID == 2)
+            {
+                MessageBox.Show("You do not have permission to add categories!", "Notification", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             var createCategoryWindow = new CreateCategory();
             if (createCategoryWindow.ShowDialog() == true)
             {
                 string name = createCategoryWindow.CategoryName;
                 string desc = createCategoryWindow.CategoryDescription;
-                // Fix: Use only name, since AddCategory only accepts one argument
+
                 _categoryService.AddCategory(name, desc);
                 LoadCategories();
             }
         }
 
+
         private void EditBtn_Click(object sender, RoutedEventArgs e)
         {
+            if (CurrentSession.CurrentUser != null && CurrentSession.CurrentUser.RoleID == 2)
+            {
+                MessageBox.Show("You do not have permission to edit the category!", "Notice", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             var button = sender as Button;
             if (button?.Tag != null)
             {
@@ -65,6 +79,12 @@ namespace ManageProduct
 
         private void DeleteBtn_Click(object sender, RoutedEventArgs e)
         {
+            if (CurrentSession.CurrentUser != null && CurrentSession.CurrentUser.RoleID == 2)
+            {
+                MessageBox.Show("You do not have permission to delete the category!", "Notice", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
             var button = sender as Button;
             if (button?.Tag != null)
             {
@@ -78,6 +98,7 @@ namespace ManageProduct
                 }
             }
         }
+
 
     }
 }
