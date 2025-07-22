@@ -5017,23 +5017,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tran Thanh Hang\\.nuget\\packages\\": {},
+    "C:\\Users\\iphon\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
+      "projectUniqueName": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
       "projectName": "ManageProduct.DAL",
-      "projectPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
-      "packagesPath": "C:\\Users\\Tran Thanh Hang\\.nuget\\packages\\",
-      "outputPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\obj\\",
+      "projectPath": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
+      "packagesPath": "C:\\Users\\iphon\\.nuget\\packages\\",
+      "outputPath": "C:\\AssigmentPRN\\PRN_Project\\ManageProduct.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tran Thanh Hang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\iphon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -8,6 +8,9 @@
     <Compile Update="CategoryPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="CreateCategory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CreateProductWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +18,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="DashboardPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ProductPage.xaml.cs">

@@ -12,6 +12,7 @@
     <ProjectReference Include="..\ManageProduct.BLL\ManageProduct.BLL.csproj">
       <Private>True</Private>
     </ProjectReference>
+    <ProjectReference Include="..\ManageProduct.DAL\ManageProduct.DAL.csproj" />
   </ItemGroup>
 
   <ItemGroup>
