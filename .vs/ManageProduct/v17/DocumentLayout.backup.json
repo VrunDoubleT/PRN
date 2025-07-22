@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|d:\\studyspace\\5_su25\\prn212\\manageproduct\\manageproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|d:\\studyspace\\5_su25\\prn212\\manageproduct\\manageproduct.dal\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|solutionrelative:manageproduct.dal\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|d:\\studyspace\\5_su25\\prn212\\manageproduct\\manageproduct\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|d:\\studyspace\\5_su25\\prn212\\manageproduct\\manageproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{47ED6E49-67BB-4D03-8B64-67DAEFE94542}|ManageProduct\\ManageProduct.csproj|solutionrelative:manageproduct\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F814C1BE-32F2-4CD4-87B7-9BCAD2BEC83D}|ManageProduct.DAL\\ManageProduct.DAL.csproj|d:\\studyspace\\5_su25\\prn212\\manageproduct\\manageproduct.dal\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -125,7 +125,45 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageProduct\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ManageProduct\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAtwCkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T10:07:30.752Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T10:07:30.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\appsettings.json",
+              "RelativeDocumentMoniker": "ManageProduct\\appsettings.json",
+              "ToolTip": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\appsettings.json",
+              "RelativeToolTip": "ManageProduct\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-22T10:07:30.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ManageProduct.csproj.user",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\ManageProduct.csproj.user",
               "RelativeDocumentMoniker": "ManageProduct\\ManageProduct.csproj.user",
@@ -138,32 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ManageProduct\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ManageProduct\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAtwCkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:07:30.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "ManageProduct.DAL\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:07:30.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BrandPage.xaml",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\BrandPage.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\BrandPage.xaml",
@@ -175,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ManageProduct.csproj",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\ManageProduct.csproj",
               "RelativeDocumentMoniker": "ManageProduct\\ManageProduct.csproj",
@@ -188,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CategoryPage.xaml.cs",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\CategoryPage.xaml.cs",
               "RelativeDocumentMoniker": "ManageProduct\\CategoryPage.xaml.cs",
@@ -200,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CategoryPage.xaml",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\CategoryPage.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\CategoryPage.xaml",
@@ -211,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Role.cs",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\Role.cs",
@@ -223,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CreateProductWindow.xaml",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\CreateProductWindow.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\CreateProductWindow.xaml",
@@ -234,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\Entities\\User.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\User.cs",
@@ -246,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ManageProductContext.cs",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProductContext.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\ManageProductContext.cs",
@@ -258,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "ManageProduct.DAL\\Entities\\Product.cs",
@@ -270,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "ManageProduct\\AssemblyInfo.cs",
@@ -282,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\App.xaml",
               "RelativeDocumentMoniker": "ManageProduct\\App.xaml",
@@ -291,18 +304,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-07-22T10:07:30.963Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\appsettings.json",
-              "RelativeDocumentMoniker": "ManageProduct\\appsettings.json",
-              "ToolTip": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct\\appsettings.json",
-              "RelativeToolTip": "ManageProduct\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-22T10:07:30.964Z"
             },
             {
               "$type": "Document",
