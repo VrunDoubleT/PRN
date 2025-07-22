@@ -1,0 +1,16 @@
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.BLL.deps.json
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.BLL.dll
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.BLL.pdb
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.DAL.dll
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\bin\Debug\net8.0\ManageProduct.DAL.pdb
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.csproj.AssemblyReference.cache
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.AssemblyInfoInputs.cache
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.AssemblyInfo.cs
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.csproj.CoreCompileInputs.cache
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.sourcelink.json
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManagePr.717CA1D1.Up2Date
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.dll
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\refint\ManageProduct.BLL.dll
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ManageProduct.BLL.pdb
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.BLL\obj\Debug\net8.0\ref\ManageProduct.BLL.dll

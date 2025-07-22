@@ -1,0 +1,15 @@
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.deps.json
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.runtimeconfig.json
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.dll
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.pdb
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.csproj.AssemblyReference.cache
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.AssemblyInfoInputs.cache
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.AssemblyInfo.cs
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.csproj.CoreCompileInputs.cache
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.sourcelink.json
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.dll
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\refint\ManageProduct.DAL.dll
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.pdb
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.genruntimeconfig.cache
+D:\Studyspace\5_SU25\PRN212\ManageProduct\ManageProduct.DAL\obj\Debug\net8.0\ref\ManageProduct.DAL.dll
