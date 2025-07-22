@@ -32,9 +32,6 @@ namespace ManageProduct.BLL.Services
             _categoryRepository.UpdateCategory(categoryId, categoryName, description);
         }
 
-        public void DeleteCategory(int categoryId)
-        {
-            _categoryRepository.DeleteCategory(categoryId);
-        }
+        public bool DeleteCategory(int categoryId) => _categoryRepository.DeleteCategory(categoryId);
     }
 }

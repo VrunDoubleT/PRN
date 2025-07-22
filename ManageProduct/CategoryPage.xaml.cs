@@ -91,13 +91,25 @@ namespace ManageProduct
                 int categoryId = Convert.ToInt32(button.Tag);
                 var result = MessageBox.Show("Are you sure you want to delete this category?",
                     "Delete Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+
                 if (result == MessageBoxResult.Yes)
                 {
-                    _categoryService.DeleteCategory(categoryId);
-                    LoadCategories();
+                    bool success = _categoryService.DeleteCategory(categoryId);
+                    if (!success)
+                    {
+                        MessageBox.Show("Cannot delete this category because there are still products linked to it!",
+                            "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Category deleted successfully!",
+                            "Notice", MessageBoxButton.OK, MessageBoxImage.Information);
+                        LoadCategories();
+                    }
                 }
             }
         }
+
 
 
     }
