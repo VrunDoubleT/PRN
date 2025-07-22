@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -39,7 +40,6 @@ namespace ManageProduct.DAL.Repositories
         public User? CheckLogin(string email, string password)
         {
             string hashedPassword = HashMD5(password);
-
             return _context.Users.FirstOrDefault(u => u.Email == email && u.Password == hashedPassword && u.RoleID != 3);
         }
     }

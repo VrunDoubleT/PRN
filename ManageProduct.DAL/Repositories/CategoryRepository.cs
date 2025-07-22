@@ -4,11 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ManageProduct.DAL.Entities;
+using Microsoft.EntityFrameworkCore;
 namespace ManageProduct.DAL.Repositories
-{ 
+{
     public class CategoryRepository
     {
         private readonly ManageProductContext _context;
+
+        public bool CategoryNameExists(string categoryName)
+        {
+            return _context.Categories.Any(c => c.Name.ToLower() == categoryName.Trim().ToLower());
+        }
 
         public CategoryRepository(ManageProductContext context)
         {
@@ -38,15 +44,25 @@ namespace ManageProduct.DAL.Repositories
             }
         }
 
-        public void DeleteCategory(int categoryId)
+        public bool DeleteCategory(int categoryId)
         {
-            var category = _context.Categories.Find(categoryId);
+            var category = _context.Categories
+                .Include(c => c.Products)
+                .FirstOrDefault(c => c.CategoryID == categoryId);
+
             if (category != null)
             {
+                if (category.Products.Any())
+                {
+                    return false;
+                }
                 _context.Categories.Remove(category);
                 _context.SaveChanges();
+                return true;
             }
+            return false;
         }
+
 
     }
 }

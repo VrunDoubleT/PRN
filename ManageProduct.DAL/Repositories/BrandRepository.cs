@@ -1,4 +1,5 @@
 ﻿using ManageProduct.DAL.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,14 +39,34 @@ namespace ManageProduct.DAL.Repositories
             }
         }
 
-        public void DeleteBrand(int brandId)
+        public bool DeleteBrand(int brandId)
         {
-            var brand = _context.Brands.Find(brandId);
+            var brand = _context.Brands
+                .Include(b => b.Products)
+                .FirstOrDefault(b => b.BrandID == brandId);
+
             if (brand != null)
             {
+                if (brand.Products.Any())
+                {
+                    return false;
+                }
+
                 _context.Brands.Remove(brand);
                 _context.SaveChanges();
+                return true;
             }
+            return false;
+        }
+
+        public bool BrandNameExists(string brandName)
+        {
+            return _context.Brands.Any(b => b.Name.ToLower() == brandName.ToLower());
+        }
+
+        public bool BrandNameExists(string brandName, int excludeBrandId)
+        {
+            return _context.Brands.Any(b => b.Name.ToLower() == brandName.ToLower() && b.BrandID != excludeBrandId);
         }
     }
 }

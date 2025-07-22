@@ -22,19 +22,27 @@ namespace ManageProduct.BLL.Services
             return _brandRepository.GetBrands();
         }
 
-        public void AddBrand(string brandName)
+        public bool AddBrand(string brandName)
         {
+            if (_brandRepository.BrandNameExists(brandName))
+                return false;
+
             _brandRepository.AddBrand(brandName);
+            return true;
         }
 
-        public void UpdateBrand(int brandId, string brandName)
+        public bool UpdateBrand(int brandId, string brandName)
         {
+            if (_brandRepository.BrandNameExists(brandName, brandId))
+                return false;
+
             _brandRepository.UpdateBrand(brandId, brandName);
+            return true;
         }
 
-        public void DeleteBrand(int brandId)
+        public bool DeleteBrand(int brandId)
         {
-            _brandRepository.DeleteBrand(brandId);
+            return _brandRepository.DeleteBrand(brandId);
         }
     }
 }

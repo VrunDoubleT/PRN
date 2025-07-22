@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using ManageProduct.BLL.Services;
 using ManageProduct.DAL.Repositories;
 using ManageProduct.DAL;
+using static ManageProduct.DAL.Repositories.UserRepositories;
 
 namespace ManageProduct
 {
@@ -32,6 +33,11 @@ namespace ManageProduct
             var repo = new StaffRepository(context);
             _staffService = new StaffService(repo);
             LoadStaffs();
+            if (CurrentSession.CurrentUser.RoleID != 1)
+            {
+                AddStaffBtn.Visibility = Visibility.Collapsed;
+                StaffDataGrid.Columns[3].Visibility = Visibility.Collapsed;
+            }
         }
 
         private void LoadStaffs()
@@ -44,35 +50,92 @@ namespace ManageProduct
             }
         }
 
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+
         private void AddStaffBtn_Click(object sender, RoutedEventArgs e)
         {
             var createStaffWindow = new CreateStaffWindow();
             if (createStaffWindow.ShowDialog() == true)
             {
-                string name = createStaffWindow.StaffName;
-                string email = createStaffWindow.StaffEmail;
-                _staffService.AddStaff(name, email);
-                LoadStaffs();
+                string name = createStaffWindow.StaffName?.Trim();
+                string email = createStaffWindow.StaffEmail?.Trim();
+
+                // Kiểm tra rỗng
+                if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(email))
+                {
+                    MessageBox.Show("Full Name and Email are required.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                // Kiểm tra định dạng email
+                if (!IsValidEmail(email))
+                {
+                    MessageBox.Show("Invalid email format.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                try
+                {
+                    _staffService.AddStaff(name, email);
+                    MessageBox.Show("Staff added successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                    LoadStaffs();
+                }
+                catch (InvalidOperationException ex)
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
             }
         }
+
 
         private void EditStaffBtn_Click(object sender, RoutedEventArgs e)
         {
             var button = sender as Button;
-            if (button?.Tag != null)
-            {
-                int staffId = Convert.ToInt32(button.Tag);
-                var staff = _staffService.GetStaffs().FirstOrDefault(c => c.UserID == staffId);
-                if (staff == null) return;
+            if (button?.Tag == null) return;
 
-                var editDialog = new EditStaffWindow(staff.FullName, staff.Email);
-                if (editDialog.ShowDialog() == true)
+            int staffId = Convert.ToInt32(button.Tag);
+            var staff = _staffService.GetStaffs().FirstOrDefault(c => c.UserID == staffId);
+            if (staff == null) return;
+
+            var editDialog = new EditStaffWindow(staff.FullName, staff.Email);
+            if (editDialog.ShowDialog() == true)
+            {
+                string newName = editDialog.StaffName.Trim();
+                string newEmail = editDialog.StaffEmail.Trim();
+
+                // Kiểm tra rỗng
+                if (string.IsNullOrWhiteSpace(newName) || string.IsNullOrWhiteSpace(newEmail))
                 {
-                    _staffService.UpdateStaff(staffId, editDialog.StaffName, editDialog.StaffEmail);
+                    MessageBox.Show("Full Name and Email are required.", "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                try
+                {
+                    _staffService.UpdateStaff(staffId, newName, newEmail);
+                    MessageBox.Show("Staff updated successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                     LoadStaffs();
+                }
+                catch (InvalidOperationException ex)
+                {
+                    // Lỗi trùng email hoặc lỗi khác do bạn định nghĩa ở tầng Service
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }
+
 
         private void DeleteStaffBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -86,6 +149,22 @@ namespace ManageProduct
                 {
                     _staffService.DeleteStaff(staffId);
                     LoadStaffs();
+                }
+            }
+        }
+
+        public void ResetPasswordBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            if (button?.Tag != null)
+            {
+                int staffId = Convert.ToInt32(button.Tag);
+                var result = MessageBox.Show("Are you sure you want to reset password this staff?",
+                    "Confirm deletion", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                if (result == MessageBoxResult.Yes)
+                {
+                    _staffService.resetPassword(staffId);
+                    MessageBox.Show("Reset successfully");
                 }
             }
         }

@@ -17,11 +17,11 @@ using static ManageProduct.DAL.Repositories.UserRepositories;
 namespace ManageProduct
 {
 
-    public partial class Login : Window
-    {   
+    public partial class LoginWindow : Window
+    {
         private UserService userService = new UserService();
 
-        public Login()
+        public LoginWindow()
         {
             InitializeComponent();
         }
@@ -29,33 +29,32 @@ namespace ManageProduct
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             var email = txtUsername.Text.Trim();
-            var password = txtPassword.Password; 
+            var password = txtPassword.Password;
 
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
                 MessageBox.Show("Please enter both email and password!");
                 return;
             }
-
             var user = userService.Login(email, password);
 
             if (user != null)
             {
-                
+
                 MessageBox.Show($"Welcome, {user.FullName}!");
 
                 CurrentSession.CurrentUser = user;
 
-               
+
                 MainWindow main = new MainWindow();
                 main.Show();
                 this.Close();
             }
             else
             {
-               
                 MessageBox.Show("Email or password is incorrect!");
             }
         }
     }
 }
+

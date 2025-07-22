@@ -307,51 +307,8 @@
                         <DataGridTextColumn Header="Brand" Binding="{Binding Brand.Name}" Width="120" IsReadOnly="True"/>
                         
                         <DataGridTextColumn Header="Price" Binding="{Binding Price, StringFormat=C}" Width="100" IsReadOnly="True"/>
-                        
+
                         <DataGridTextColumn Header="Stock" Binding="{Binding StockQuantity}" Width="80" IsReadOnly="True"/>
-                        
-                        <DataGridTemplateColumn Header="Image" Width="80">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <Border Background="#F8F9FA" CornerRadius="4" Width="50" Height="50">
-                                        <StackPanel>
-                                        <Image Source="{Binding ImageURL}" 
-                                             Stretch="UniformToFill"
-                                             RenderOptions.BitmapScalingMode="HighQuality">
-                                            <Image.Style>
-                                                <Style TargetType="Image">
-                                                    <Style.Triggers>
-                                                        <Trigger Property="Source" Value="{x:Null}">
-                                                            <Setter Property="Visibility" Value="Collapsed"/>
-                                                        </Trigger>
-                                                    </Style.Triggers>
-                                                </Style>
-                                            </Image.Style>
-                                        </Image>
-                                        <TextBlock Text="📷" FontSize="20" 
-                                                 HorizontalAlignment="Center" 
-                                                 VerticalAlignment="Center"
-                                                 Foreground="#BDC3C7">
-                                            <TextBlock.Style>
-                                                <Style TargetType="TextBlock">
-                                                    <Style.Triggers>
-                                                        <DataTrigger Binding="{Binding ImageURL}" Value="{x:Null}">
-                                                            <Setter Property="Visibility" Value="Visible"/>
-                                                        </DataTrigger>
-                                                        <DataTrigger Binding="{Binding ImageURL}" Value="">
-                                                            <Setter Property="Visibility" Value="Visible"/>
-                                                        </DataTrigger>
-                                                    </Style.Triggers>
-                                                    <Setter Property="Visibility" Value="Collapsed"/>
-                                                </Style>
-                                            </TextBlock.Style>
-                                        </TextBlock>
-                                        </StackPanel>
-                                    </Border>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        
                         <DataGridTemplateColumn Header="Actions" Width="200">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
@@ -360,12 +317,18 @@
                                               Style="{StaticResource SuccessButtonStyle}" 
                                               Width="70"
                                               Margin="0,0,5,0"
-                                              Tag="{Binding ProductID}"/>
+                                              Tag="{Binding ProductID}"
+                                              x:Name="EditBtn"
+                                              Click="EditBtn_Click"
+                                                />
+                                              
                                         <Button x:Name="DeleteBtn" Content="🗑️ Delete"
                                               Click="DeleteBtn_Click"
                                               Style="{StaticResource DangerButtonStyle}" 
                                               Width="70"
+                                                
                                               Tag="{Binding ProductID}"/>
+                                        
                                     </StackPanel>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellTemplate>

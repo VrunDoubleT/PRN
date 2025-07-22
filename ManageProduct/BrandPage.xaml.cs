@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static ManageProduct.DAL.Repositories.UserRepositories;
 
 namespace ManageProduct
 {
@@ -32,6 +33,11 @@ namespace ManageProduct
             var repo = new BrandRepository(context);
             _brandService = new BrandService(repo);
             LoadBrands();
+            if (CurrentSession.CurrentUser.RoleID != 1)
+            {
+                AddBrandBtn.Visibility = Visibility.Collapsed;
+                BrandDataGrid.Columns[2].Visibility = Visibility.Collapsed;
+            }
         }
 
         private void LoadBrands()
@@ -58,7 +64,13 @@ namespace ManageProduct
             {
                 string name = createBrandWindow.BrandName;
 
-                _brandService.AddBrand(name);
+                bool success = _brandService.AddBrand(name);
+                if (!success)
+                {
+                    MessageBox.Show("Brand name already exists! Please choose a different name.",
+                        "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
                 LoadBrands();
             }
         }
@@ -81,7 +93,13 @@ namespace ManageProduct
                 var editDialog = new CreateBrand(brand.Name);
                 if (editDialog.ShowDialog() == true)
                 {
-                    _brandService.UpdateBrand(brandId, editDialog.BrandName);
+                    bool success = _brandService.UpdateBrand(brandId, editDialog.BrandName);
+                    if (!success)
+                    {
+                        MessageBox.Show("Brand name already exists! Please choose a different name.",
+                            "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        return;
+                    }
                     LoadBrands();
                 }
             }
@@ -89,11 +107,11 @@ namespace ManageProduct
 
         private void DeleteBtn_Click(object sender, RoutedEventArgs e)
         {
-            //if (CurrentSession.CurrentUser != null && CurrentSession.CurrentUser.RoleID == 2)
-            //{
-            //    MessageBox.Show("You do not have permission to delete the brand!", "Notice", MessageBoxButton.OK, MessageBoxImage.Warning);
-            //    return;
-            //}
+            // if (CurrentSession.CurrentUser != null && CurrentSession.CurrentUser.RoleID == 2)
+            // {
+            //     MessageBox.Show("You do not have permission to delete the brand!", "Notice", MessageBoxButton.OK, MessageBoxImage.Warning);
+            //     return;
+            // }
 
             var button = sender as Button;
             if (button?.Tag != null)
@@ -103,8 +121,18 @@ namespace ManageProduct
                     "Delete Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning);
                 if (result == MessageBoxResult.Yes)
                 {
-                    _brandService.DeleteBrand(brandId);
-                    LoadBrands();
+                    bool success = _brandService.DeleteBrand(brandId);
+                    if (!success)
+                    {
+                        MessageBox.Show("Cannot delete this brand because there are still products linked to it!",
+                            "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Brand deleted successfully!",
+                            "Notice", MessageBoxButton.OK, MessageBoxImage.Information);
+                        LoadBrands();
+                    }
                 }
             }
         }

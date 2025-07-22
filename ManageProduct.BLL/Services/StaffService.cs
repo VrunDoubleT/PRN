@@ -24,17 +24,33 @@ namespace ManageProduct.BLL.Services
 
         public void AddStaff(string fullName, string email)
         {
+            if (_staffRepository.IsEmailExists(email))
+            {
+                throw new InvalidOperationException("Email already exists.");
+            }
+
             _staffRepository.AddStaff(fullName, email);
         }
 
+
         public void UpdateStaff(int userId, string fullName, string email)
         {
+            if (_staffRepository.IsEmailExistsForOtherUser(userId, email))
+            {
+                throw new InvalidOperationException("Email already exists for another user.");
+            }
+
             _staffRepository.UpdateStaff(userId, fullName, email);
         }
 
         public void DeleteStaff(int userId)
         {
             _staffRepository.DeleteStaff(userId);
+        }
+
+        public void resetPassword(int userId)
+        {
+            _staffRepository.ResetStaffPassword(userId);
         }
     }
 }

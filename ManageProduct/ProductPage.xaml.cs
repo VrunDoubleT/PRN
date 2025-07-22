@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static ManageProduct.DAL.Repositories.UserRepositories;
 
 namespace ManageProduct
 {
@@ -33,12 +34,24 @@ namespace ManageProduct
             LowStockText.Text = products.Count(p => p.StockQuantity < 5).ToString();
             TotalValueText.Text = "$" + products.Sum(p => p.Price * p.StockQuantity).ToString("N2");
             AvgPriceText.Text = "$" + products.Average(p => p.Price).ToString("N2");
+
+
+            HiddenButtonByRole();
         }
 
         public ProductPage()
         {
             InitializeComponent();
             LoadProductData();
+        }
+
+        private void HiddenButtonByRole()
+        {
+            if(CurrentSession.CurrentUser.RoleID != 1)
+            {
+                AddProductBtn.Visibility = Visibility.Collapsed;
+                ProductDataGrid.Columns[6].Visibility = Visibility.Collapsed;
+            }
         }
 
         private void RefreshBtn_Click(object sender, RoutedEventArgs e)
@@ -71,5 +84,23 @@ namespace ManageProduct
             CreateProductWindow createProductWindow = new CreateProductWindow(this);
             createProductWindow.ShowDialog();
         }
+
+        private void EditBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            if (button?.Tag != null)
+            {
+                int productId = Convert.ToInt32(button.Tag);
+                var product = _productService.GetProducts().FirstOrDefault(p => p.ProductID == productId);
+                if (product == null) return;
+
+                var editWindow = new EditProductWindow(product);
+                if (editWindow.ShowDialog() == true)
+                {
+                    LoadProductData();
+                }
+            }
+        }
+
     }
 }

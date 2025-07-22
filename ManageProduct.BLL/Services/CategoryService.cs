@@ -16,25 +16,28 @@ namespace ManageProduct.BLL.Services
             _categoryRepository = categoryRepository;
         }
 
-       
+
         public List<Category> GetCategories()
         {
             return _categoryRepository.GetCategories();
         }
 
-        public void AddCategory(string categoryName, string description)
+        public bool AddCategory(string categoryName, string description)
         {
+            if (_categoryRepository.CategoryNameExists(categoryName))
+            {
+                return false;
+            }
             _categoryRepository.AddCategory(categoryName, description);
+            return true;
         }
+
 
         public void UpdateCategory(int categoryId, string categoryName, string description)
         {
             _categoryRepository.UpdateCategory(categoryId, categoryName, description);
         }
 
-        public void DeleteCategory(int categoryId)
-        {
-            _categoryRepository.DeleteCategory(categoryId);
-        }
+        public bool DeleteCategory(int categoryId) => _categoryRepository.DeleteCategory(categoryId);
     }
 }

@@ -229,17 +229,6 @@
                                 <TextBlock Text="Customers"/>
                             </StackPanel>
                         </Button>
-
-                        <Button x:Name="StopTrollBtn"
-                            Content="🛑 Stop Troll"
-                            Width="120"
-                            Height="40"
-                            Margin="10"
-                            Visibility="Collapsed"
-                            Background="DarkRed"
-                            Foreground="White"
-                            FontWeight="Bold"
-                            Click="StopTrollBtn_Click"/>
                     </StackPanel>
                 </ScrollViewer>
 
@@ -254,9 +243,9 @@
                         VerticalAlignment="Center"
                         Padding="10"
                         HorizontalContentAlignment="Center"
-                        Click="AOMA_Click"
+                        Click="logoutBtn_Click"
                         >
-                        Don't Click
+                        Log out
                     </Button>
                 </Border>
             </Grid>
@@ -279,16 +268,10 @@
 
                     <!-- Phần thông tin người dùng -->
                     <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
-                        <Grid Width="40" Height="40">
-                            <!-- Hình ảnh từ URL -->
-                            <Image Source="https://i.pravatar.cc/100" Stretch="Fill" />
-                        </Grid>
-
-
                         <!-- Thông tin người dùng -->
                         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-                            <TextBlock Text="Nguyen Van A" FontWeight="Bold" FontSize="14"/>
-                            <TextBlock Text="Admin" Foreground="Gray" FontSize="12"/>
+                            <TextBlock x:Name="NameTxt" Text="Nguyen Van A" FontWeight="Bold" FontSize="14"/>
+                            <TextBlock x:Name="RoleTxt" Text="Admin" Foreground="Gray" FontSize="12"/>
                         </StackPanel>
                     </StackPanel>
                 </Grid>

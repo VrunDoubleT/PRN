@@ -1,5 +1,7 @@
 ﻿using ManageProduct.BLL.Services;
+using ManageProduct.DAL;
 using ManageProduct.DAL.Entities;
+using ManageProduct.DAL.Repositories;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -24,13 +26,16 @@ namespace ManageProduct
     {
         private ProductPage _productPage;
         ProductService _productService = new();
+        ManageProductContext _context;
+
         public Product NewProduct { get; set; }
 
         public CreateProductWindow(ProductPage productPage)
         {
             InitializeComponent();
             _productPage = productPage;
-            LoadData();
+            _context = new ManageProductContext();
+            LoadData();  
         }
 
         private void LoadData()
@@ -44,28 +49,14 @@ namespace ManageProduct
 
         private void LoadCategories()
         {
-            // Ví dụ dữ liệu mẫu - thay thế bằng code thực tế
-            var categories = new List<Category>
-            {
-                new Category { CategoryID = 1, CategoryName = "Điện thoại" },
-                new Category { CategoryID = 2, CategoryName = "Laptop" },
-                new Category { CategoryID = 3, CategoryName = "Tai nghe" },
-                new Category { CategoryID = 4, CategoryName = "Phụ kiện" }
-            };
-
+            var categories = _context.Categories.ToList();
             cmbCategory.ItemsSource = categories;
         }
 
         private void LoadBrands()
         {
             // Ví dụ dữ liệu mẫu - thay thế bằng code thực tế
-            var brands = new List<Brand>
-            {
-                new Brand { BrandID = 1, BrandName = "Samsung" },
-                new Brand { BrandID = 2, BrandName = "Apple" },
-                new Brand { BrandID = 3, BrandName = "Xiaomi" },
-                new Brand { BrandID = 4, BrandName = "Huawei" }
-            };
+            var brands = _context.Brands.ToList();
 
             cmbBrand.ItemsSource = brands;
         }
@@ -81,8 +72,7 @@ namespace ManageProduct
                     Price = decimal.Parse(txtPrice.Text.Trim()),
                     StockQuantity = int.Parse(txtStockQuantity.Text.Trim()),
                     CategoryID = (int)cmbCategory.SelectedValue,
-                    BrandID = (int)cmbBrand.SelectedValue,
-                    ImageURL = string.IsNullOrWhiteSpace(txtImageURL.Text) ? null : txtImageURL.Text.Trim()
+                    BrandID = (int)cmbBrand.SelectedValue
                 };
                 _productService.CreateProduct(NewProduct);
                 _productPage.LoadProductData();
@@ -99,15 +89,6 @@ namespace ManageProduct
 
         private void BtnBrowseImage_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Filter = "Image files (*.jpg, *.jpeg, *.png, *.gif)|*.jpg;*.jpeg;*.png;*.gif";
-            openFileDialog.FilterIndex = 1;
-            openFileDialog.RestoreDirectory = true;
-
-            if (openFileDialog.ShowDialog() == true)
-            {
-                txtImageURL.Text = openFileDialog.FileName;
-            }
         }
 
         private bool ValidateInput()
@@ -162,18 +143,6 @@ namespace ManageProduct
 
             return true;
         }
-    }
-
-    public class Category
-    {
-        public int CategoryID { get; set; }
-        public string CategoryName { get; set; }
-    }
-
-    public class Brand
-    {
-        public int BrandID { get; set; }
-        public string BrandName { get; set; }
     }
 }
 

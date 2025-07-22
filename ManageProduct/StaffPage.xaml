@@ -185,21 +185,26 @@
                     <DataGridTextColumn Header="ID" Binding="{Binding UserID}" Width="80" IsReadOnly="True"/>
                     <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*" IsReadOnly="True"/>
                     <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="2*" IsReadOnly="True"/>
-                    <DataGridTemplateColumn Header="Actions" Width="180">
+                    <DataGridTemplateColumn Header="Actions">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,4">
                                     <Button Content="✏️ Edit"
                                             Style="{StaticResource SuccessButtonStyle}"
-                                            Width="70"
+                                            Width="100"
                                             Margin="0,0,5,0"
                                             Click="EditStaffBtn_Click"
                                             Tag="{Binding UserID}"/>
                                     <Button Content="🗑️ Delete"
                                             Style="{StaticResource DangerButtonStyle}"
-                                            Width="70"
+                                            Width="100"
                                             Click="DeleteStaffBtn_Click"
                                             Tag="{Binding UserID}"/>
+                                    <Button Content="Reset Password"
+        Style="{StaticResource DangerButtonStyle}"
+        Width="100"
+        Click="ResetPasswordBtn_Click"
+        Tag="{Binding UserID}"/>
                                 </StackPanel>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>

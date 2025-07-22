@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using ManageProduct.BLL.Services;
 using ManageProduct.DAL.Repositories;
 using ManageProduct.DAL;
+using static ManageProduct.DAL.Repositories.UserRepositories;
 
 namespace ManageProduct
 {
@@ -32,6 +33,11 @@ namespace ManageProduct
             var repo = new CustomerRepository(context);
             _customerService = new CustomerService(repo);
             LoadCustomers();
+            if (CurrentSession.CurrentUser.RoleID != 1)
+            {
+                //AddCustomerBtn.Visibility = Visibility.Collapsed;
+                CustomerDataGrid.Columns[3].Visibility = Visibility.Collapsed;
+            }
         }
 
         private void LoadCustomers()

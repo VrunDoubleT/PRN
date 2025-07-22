@@ -26,7 +26,7 @@ namespace ManageProduct
         {
             var categories = _categoryService.GetCategories();
             CategoryDataGrid.ItemsSource = categories;
-           
+
             if (this.FindName("CategoryCountText") is TextBlock categoryCountText)
             {
                 categoryCountText.Text = $"Tổng: {categories.Count} danh mục";
@@ -47,10 +47,18 @@ namespace ManageProduct
                 string name = createCategoryWindow.CategoryName;
                 string desc = createCategoryWindow.CategoryDescription;
 
-                _categoryService.AddCategory(name, desc);
+
+                bool added = _categoryService.AddCategory(name, desc);
+                if (!added)
+                {
+                    MessageBox.Show("The category name already exists! Please choose a different name.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
                 LoadCategories();
             }
         }
+
 
 
         private void EditBtn_Click(object sender, RoutedEventArgs e)
@@ -91,13 +99,25 @@ namespace ManageProduct
                 int categoryId = Convert.ToInt32(button.Tag);
                 var result = MessageBox.Show("Are you sure you want to delete this category?",
                     "Delete Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+
                 if (result == MessageBoxResult.Yes)
                 {
-                    _categoryService.DeleteCategory(categoryId);
-                    LoadCategories();
+                    bool success = _categoryService.DeleteCategory(categoryId);
+                    if (!success)
+                    {
+                        MessageBox.Show("Cannot delete this category because there are still products linked to it!",
+                            "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Category deleted successfully!",
+                            "Notice", MessageBoxButton.OK, MessageBoxImage.Information);
+                        LoadCategories();
+                    }
                 }
             }
         }
+
 
 
     }

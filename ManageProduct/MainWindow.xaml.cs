@@ -1,4 +1,5 @@
 ﻿using ManageProduct.BLL.Services;
+using ManageProduct.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
 using System.Windows;
@@ -10,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static ManageProduct.DAL.Repositories.UserRepositories;
 
 namespace ManageProduct
 {
@@ -25,7 +27,26 @@ namespace ManageProduct
         {
             InitializeComponent();
             ContentArea.Content = new DashboardPage();
+            LoadInfo();
         }
+
+        private void LoadInfo()
+        {
+            if (CurrentSession.CurrentUser != null)
+            {
+                NameTxt.Text = string.IsNullOrEmpty(CurrentSession.CurrentUser.FullName)
+                    ? "Can not find name"
+                    : CurrentSession.CurrentUser.FullName;
+
+                RoleTxt.Text = CurrentSession.CurrentUser.RoleID == 1 ? "Admin" : "Staff";
+            }
+            else
+            {
+                NameTxt.Text = "User not logged in";
+                RoleTxt.Text = "Role not available";
+            }
+        }
+
 
         private void DashboardBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -57,96 +78,12 @@ namespace ManageProduct
             ContentArea.Content = new CustomerPage();
         }
 
-        private void StopTrollBtn_Click(object sender, RoutedEventArgs e)
+        public void logoutBtn_Click(object sender, RoutedEventArgs e)
         {
-            foreach (var win in trollWindows)
-            {
-                win.Close();
-            }
-
-            trollWindows.Clear();
-            StopTrollBtn.Visibility = Visibility.Collapsed;
-        }
-
-
-        private async void AOMA_Click(object sender, RoutedEventArgs e)
-        {
-            Random random = new Random();
-            trollWindows.Clear();
-
-            string[] trollMessages = new string[]
-{
-    "Critical system error detected. Immediate action required.",
-    "System security compromised. All sessions are exposed.",
-    "High-risk malware infection in progress.",
-    "Unauthorized access detected. Data breach suspected.",
-    "All system files are being reconfigured.",
-    "Your credentials may have been stolen.",
-    "Firewall has been disabled remotely.",
-    "Network traffic is being rerouted to unknown IP.",
-    "System performance is being throttled by an unknown process.",
-    "Sensitive files are being accessed without permission.",
-    "Remote control of your machine has been activated.",
-    "Encryption of critical files is underway.",
-    "Background processes show unusual behavior.",
-    "Security logs indicate multiple failed login attempts.",
-    "All user activity is being recorded and sent externally.",
-    "System registry is being modified.",
-    "Antivirus software is no longer active.",
-    "BIOS update initiated without user approval.",
-    "Device drivers are being uninstalled silently.",
-    "A system shutdown has been scheduled by an unknown source."
-};
-
-            for (int i = 0; i < 38; i++)
-            {
-                Window win = new Window
-                {
-                    Title = $"⚠️ ERROR #{i + 1}",
-                    Width = 460,
-                    Height = 200,
-                    WindowStartupLocation = WindowStartupLocation.Manual,
-                    ResizeMode = ResizeMode.NoResize,
-                    WindowStyle = WindowStyle.None,
-                    Background = Brushes.Black,
-                    BorderBrush = Brushes.Red,
-                    BorderThickness = new Thickness(4),
-                    Topmost = true,
-                    Content = new Border
-                    {
-                        Background = Brushes.Black,
-                        BorderBrush = Brushes.Red,
-                        BorderThickness = new Thickness(2),
-                        Padding = new Thickness(20),
-                        Child = new TextBlock
-                        {
-                            Text = trollMessages[random.Next(trollMessages.Length)],
-                            FontSize = 20,
-                            FontWeight = FontWeights.ExtraBold,
-                            Foreground = Brushes.Red,
-                            HorizontalAlignment = HorizontalAlignment.Center,
-                            VerticalAlignment = VerticalAlignment.Center,
-                            TextAlignment = TextAlignment.Center,
-                            TextWrapping = TextWrapping.Wrap
-                        }
-                    }
-                };
-
-
-                win.Left = random.Next(0, (int)(SystemParameters.PrimaryScreenWidth - win.Width));
-                win.Top = random.Next(0, (int)(SystemParameters.PrimaryScreenHeight - win.Height));
-
-                trollWindows.Add(win);
-                win.Show();
-            }
-            await Task.Delay(TimeSpan.FromMinutes(1));
-            foreach (var win in trollWindows)
-            {
-                win.Topmost = false;
-            }
-
-            StopTrollBtn.Visibility = Visibility.Visible;
-            StopTrollBtn.Visibility = Visibility.Visible;
+            LoginWindow loginWindow = new();
+            loginWindow.Show();
+            CurrentSession.CurrentUser = null;
+            this.Close();
         }
     }
 }

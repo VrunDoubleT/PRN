@@ -165,13 +165,6 @@
                                FontSize="14"
                                Foreground="#7F8C8D"/>
                 </StackPanel>
-
-                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
-                    <Button Content="➕ Add Customer"
-                            Style="{StaticResource PrimaryButtonStyle}"
-                            x:Name="AddCustomerBtn"
-                            Click="AddCustomerBtn_Click"/>
-                </StackPanel>
             </Grid>
         </Border>
 
