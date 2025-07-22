@@ -1,0 +1,15 @@
+D:\PRNdev\PRN-project\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.deps.json
+D:\PRNdev\PRN-project\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.runtimeconfig.json
+D:\PRNdev\PRN-project\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.dll
+D:\PRNdev\PRN-project\ManageProduct.DAL\bin\Debug\net8.0\ManageProduct.DAL.pdb
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.csproj.AssemblyReference.cache
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.AssemblyInfoInputs.cache
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.AssemblyInfo.cs
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.csproj.CoreCompileInputs.cache
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.sourcelink.json
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.dll
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\refint\ManageProduct.DAL.dll
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.pdb
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ManageProduct.DAL.genruntimeconfig.cache
+D:\PRNdev\PRN-project\ManageProduct.DAL\obj\Debug\net8.0\ref\ManageProduct.DAL.dll

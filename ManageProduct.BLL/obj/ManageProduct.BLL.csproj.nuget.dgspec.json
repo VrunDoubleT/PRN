@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.BLL\\ManageProduct.BLL.csproj": {}
+    "D:\\PRNdev\\PRN-project\\ManageProduct.BLL\\ManageProduct.BLL.csproj": {}
   },
   "projects": {
-    "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.BLL\\ManageProduct.BLL.csproj": {
+    "D:\\PRNdev\\PRN-project\\ManageProduct.BLL\\ManageProduct.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.BLL\\ManageProduct.BLL.csproj",
+        "projectUniqueName": "D:\\PRNdev\\PRN-project\\ManageProduct.BLL\\ManageProduct.BLL.csproj",
         "projectName": "ManageProduct.BLL",
-        "projectPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.BLL\\ManageProduct.BLL.csproj",
-        "packagesPath": "C:\\Users\\Tran Thanh Hang\\.nuget\\packages\\",
-        "outputPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.BLL\\obj\\",
+        "projectPath": "D:\\PRNdev\\PRN-project\\ManageProduct.BLL\\ManageProduct.BLL.csproj",
+        "packagesPath": "C:\\Users\\Modern 15\\.nuget\\packages\\",
+        "outputPath": "D:\\PRNdev\\PRN-project\\ManageProduct.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tran Thanh Hang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Modern 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj": {
-                "projectPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj"
+              "D:\\PRNdev\\PRN-project\\ManageProduct.DAL\\ManageProduct.DAL.csproj": {
+                "projectPath": "D:\\PRNdev\\PRN-project\\ManageProduct.DAL\\ManageProduct.DAL.csproj"
               }
             }
           }
@@ -49,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -70,24 +70,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj": {
+    "D:\\PRNdev\\PRN-project\\ManageProduct.DAL\\ManageProduct.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
+        "projectUniqueName": "D:\\PRNdev\\PRN-project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
         "projectName": "ManageProduct.DAL",
-        "projectPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
-        "packagesPath": "C:\\Users\\Tran Thanh Hang\\.nuget\\packages\\",
-        "outputPath": "D:\\Studyspace\\5_SU25\\PRN212\\ManageProduct\\ManageProduct.DAL\\obj\\",
+        "projectPath": "D:\\PRNdev\\PRN-project\\ManageProduct.DAL\\ManageProduct.DAL.csproj",
+        "packagesPath": "C:\\Users\\Modern 15\\.nuget\\packages\\",
+        "outputPath": "D:\\PRNdev\\PRN-project\\ManageProduct.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tran Thanh Hang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Modern 15\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -115,7 +115,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -166,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
